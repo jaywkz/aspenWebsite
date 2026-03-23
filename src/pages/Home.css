@@ -14,7 +14,7 @@
   justify-content: center; /* center the pair so they're equidistant from page center */
   gap: 5rem;
   width: 100%;
-  max-width: 1100px; /* limit combined width so the pair centers nicely */
+  max-width: 1500px; /* limit combined width so the pair centers nicely */
   margin: 0 auto; /* center the hero block in the page */
 }
 
@@ -32,21 +32,36 @@
   transform: translateY(0);
 }
 
+.topTextDiv {
+  top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  background-image: linear-gradient(135deg, #a4b3c0, #5a7891);
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: #0000001a 0px 8px 24px, #0000001a 0px 16px 48px;
+}
+
+.topText {
+  position: relative;
+  font-family: 'Georgia', serif;
+  font-size: 4rem;
+}
 
 .hero__logo {
   width: 520px; /* larger logo to take up more horizontal and vertical space */
   height: auto;
   display: block;
-  flex: 0 0 520px;
+  flex: 0 0 420px;
 }
 
-.hero__text {
+.hero__text { /* THIS ONE NEEDS BIGGER */
   background: rgba(255,255,255,0.98);
-  padding: 3.5rem 4rem; /* increased padding for bigger vertical presence */
-  border-radius: 14px;
+  padding: 3.5rem 2rem; /* increased padding for bigger vertical presence */
+  border-radius: 20px;
   box-shadow: 0 14px 44px rgba(0,0,0,0.12);
-  flex: 1 1 auto;
-  max-width: 720px; /* allow more text width */
+  flex: 2 1 0;
+  max-width: none;
 }
 
 .hero__text p {
@@ -205,7 +220,7 @@
 .info-sections.visible .info-card:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.44s; }
 
 .info-card__img {
-  width: 200px;
+  width: 100px;
   height: auto;
   margin: 0.5rem auto 0;
   align-self: center;

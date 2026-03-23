@@ -62,29 +62,35 @@ export default function Home(): JSX.Element {
 
   return (
     <div className="page">
+
+      <div className = "topTextDiv">
+        <p className='topText'>We all need a HUG.</p>
+      </div>
+
       <div ref={ref} className={`hero ${visible ? 'visible' : ''}`}>
         <img src={bigHugLogo} alt="Big Hug Logo" className="hero__logo" />
         <div className="hero__text">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien nec ipsum efficitur convallis. Curabitur a nunc ac nisl efficitur tincidunt. Donec
-            eget ligula sed metus efficitur convallis. Sed at felis id enim efficitur
-            consectetur.
+            Help Us Grow is a student-led initiative attempting to close the perception gap between teachers who don't believe
+            their students' mental health can impact their academic performance, and the large group of kids who report that it does.
+            We believe that everybody, teachers and students, need a HUG, and that by raising awareness to the issues both groups face,
+            we can create a more supportive and understanding school environment for everyone.
           </p>
         </div>
       </div>
       <div className="stats-section">
         <div className="stats-inner">
           <div className="stat">
-            <div className="stat-value">1,234</div>
-            <div className="stat-label">Students served</div>
+            <div className="stat-value">50%</div>
+            <div className="stat-label">BLA Students report mental health issues</div>
           </div>
           <div className="stat">
-            <div className="stat-value">256</div>
-            <div className="stat-label">Schools partnered</div>
+            <div className="stat-value">80%</div>
+            <div className="stat-label">Teachers nationwide don't believe their students are struggling</div>
           </div>
           <div className="stat">
-            <div className="stat-value">98%</div>
-            <div className="stat-label">Satisfaction</div>
+            <div className="stat-value">100%</div>
+            <div className="stat-label">Of us need a HUG</div>
           </div>
         </div>
       </div>
@@ -106,28 +112,22 @@ export default function Home(): JSX.Element {
         <div className="info-card info-students">
           <div>
             <h3>Students</h3>
-            <p><a href="#">Student resources</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYTbPoeqaFRdvshaBZNQTGriwxZQa5ATmi6npxpIJUFCJdSQ/viewform?usp=dialog">Student survey</a></p>
           </div>
           <img src={smallHugLogo} alt="students" className="info-card__img" />
         </div>
         <div className="info-card info-teachers">
           <div>
             <h3>Teachers</h3>
-            <p><a href="#">Teacher resources</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfQNw4jAD2rdnLd0Zhlw6WOIGoyOiTOrd_6h4CbO6DiPufMuQ/viewform?usp=dialog">Teacher survey</a></p>
           </div>
           <img src={smallHugLogo} alt="teachers" className="info-card__img" />
-        </div>
-        <div className="info-card info-parents">
-          <div>
-            <h3>Parents</h3>
-            <p><a href="#">Parent resources</a></p>
-          </div>
-          <img src={smallHugLogo} alt="parents" className="info-card__img" />
         </div>
       </div>
 
       <footer className="site-footer">
         <div className="site-footer__inner">© {new Date().getFullYear()} Help Us Grow. All rights reserved.</div>
+        <div className="site-footer__inner">Contact: jakeybink@gmail.com</div>
       </footer>
     </div>
   )

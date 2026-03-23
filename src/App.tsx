@@ -9,14 +9,12 @@ import Contact from './pages/Contact'
 export default function App(): JSX.Element {
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <header className="top-nav" role="banner">
           <div className="nav-container">
-            <div className="brand">Site</div>
+            <div className="brand">Help Us Grow</div>
             <nav className="nav-links" aria-label="Main navigation">
               <Link to="/" className = "nav-link">Home</Link>
-              <Link to="/about" className = "nav-link">About</Link>
-              <Link to="/contact" className = "nav-link">Contact</Link>
             </nav>
           </div>
         </header>

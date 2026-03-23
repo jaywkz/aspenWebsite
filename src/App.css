@@ -1,8 +1,12 @@
 :root {
   --nav-height: 64px;
-  --nav-bg: #ffffff;
-  --nav-border: #e6e6e6;
+  --nav-bg: #f5fafe;
+  --nav-border: #dee7ef;
   --text: #0b0b0b;
+}
+
+.app-container {
+  background-color: #a0e0ec;
 }
 
 .top-nav {
