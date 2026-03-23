@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { JSX } from 'react'
 import './Home.css'
 import bigHugLogo from '../assets/bigHugLogo.png'
