@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { JSX } from 'react'
 import './Home.css'
-import bigHugLogo from '../assets/bigHugLogo.png'
+import bigHugLogo from '../assets/Full BodyB_WTransparent.png'
 import smallHugLogo from '../assets/smallHugLogo.png'
 
 export default function Home(): JSX.Element {
@@ -71,7 +71,7 @@ export default function Home(): JSX.Element {
         <img src={bigHugLogo} alt="Big Hug Logo" className="hero__logo" />
         <div className="hero__text">
           <p>
-            Help Us Grow is a student-led initiative attempting to close the perception gap between teachers who don't believe
+            Help Us Grow (HUG) is a student-led initiative from Boston Latin Academy attempting to close the perception gap between teachers who don't believe
             their students' mental health can impact their academic performance, and the large group of kids who report that it does.
             We believe that everybody, teachers and students, need a HUG, and that by raising awareness to the issues both groups face,
             we can create a more supportive and understanding school environment for everyone.
@@ -82,7 +82,7 @@ export default function Home(): JSX.Element {
         <div className="stats-inner">
           <div className="stat">
             <div className="stat-value">50%</div>
-            <div className="stat-label">BLA Students report mental health issues</div>
+            <div className="stat-label">B Students report mental health issues</div>
           </div>
           <div className="stat">
             <div className="stat-value">80%</div>
