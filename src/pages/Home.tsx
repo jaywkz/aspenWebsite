@@ -99,7 +99,7 @@ export default function Home(): JSX.Element {
         <div className={`video-wrapper ${videoVisible ? 'visible' : ''}`}>
           <iframe
             className="video-iframe"
-            src="https://www.youtube.com/embed/ZwHVs7W6XdY"
+            src="https://www.youtube.com/watch?v=g0lSixkzGOY"
             title="Intro video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
